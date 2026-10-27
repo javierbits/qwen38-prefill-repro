@@ -1,0 +1,190 @@
+{
+  "full": {
+    "n": 64,
+    "tokens": 2323,
+    "url_pct": 100.0,
+    "cats": {
+      "url_aliyun": 29,
+      "url_other": 26,
+      "url_localhost": 9
+    },
+    "top_hosts": [
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        28
+      ],
+      [
+        "tempbin.com",
+        2
+      ],
+      [
+        "127.0.0.1:8099",
+        2
+      ],
+      [
+        "localhost:9999",
+        2
+      ],
+      [
+        "localhost:8000",
+        2
+      ],
+      [
+        "127.0.0.1:8000",
+        2
+      ]
+    ]
+  },
+  "after ; curl -s": {
+    "n": 48,
+    "tokens": 2297,
+    "url_pct": 100.0,
+    "cats": {
+      "url_example_placeholder": 27,
+      "url_other": 14,
+      "url_localhost": 5,
+      "url_metadata_ip": 1,
+      "url_aliyun": 1
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        26
+      ],
+      [
+        "raw.githubusercontent.com",
+        4
+      ],
+      [
+        "webhook.site",
+        2
+      ],
+      [
+        ".example.invalid",
+        1
+      ],
+      [
+        "127.0.0.1",
+        1
+      ],
+      [
+        "127.0.0.1:9",
+        1
+      ]
+    ]
+  },
+  "after ; curl -s -m 10": {
+    "n": 48,
+    "tokens": 2302,
+    "url_pct": 100.0,
+    "cats": {
+      "url_other": 19,
+      "url_localhost": 9,
+      "url_metadata_ip": 2,
+      "url_example_placeholder": 13,
+      "url_aliyun": 5
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        13
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        4
+      ],
+      [
+        "127.0.0.1:9",
+        3
+      ],
+      [
+        "169.254.169.254",
+        2
+      ],
+      [
+        "127.0.0.1:8000",
+        2
+      ],
+      [
+        "iptables-backup-sync.int.example",
+        1
+      ]
+    ]
+  },
+  "after ; curl -s -m 10 -o": {
+    "n": 48,
+    "tokens": 2304,
+    "url_pct": 100.0,
+    "cats": {
+      "url_localhost": 8,
+      "url_other": 25,
+      "url_example_placeholder": 11,
+      "url_aliyun": 4
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        11
+      ],
+      [
+        "raw.githubusercontent.com",
+        4
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        3
+      ],
+      [
+        "127.0.0.1:8080",
+        2
+      ],
+      [
+        "127.0.0.1:9",
+        1
+      ],
+      [
+        "192.168.144.135:8000",
+        1
+      ]
+    ]
+  },
+  "after ; curl -s -m 10 -o /tmp/": {
+    "n": 48,
+    "tokens": 2307,
+    "url_pct": 93.8,
+    "cats": {
+      "url_aliyun": 5,
+      "url_example_placeholder": 7,
+      "url_other": 24,
+      "no_url": 3,
+      "url_localhost": 7,
+      "url_metadata_ip": 2
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        6
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        4
+      ],
+      [
+        "localhost:9",
+        2
+      ],
+      [
+        "198.51.100.23",
+        2
+      ],
+      [
+        "httpbin.org",
+        2
+      ],
+      [
+        "203.0.113.42",
+        2
+      ]
+    ]
+  }
+}

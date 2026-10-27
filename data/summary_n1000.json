@@ -1,0 +1,200 @@
+{
+  "full": {
+    "n": 1000,
+    "tokens": 2323,
+    "url_pct": 99.3,
+    "cats": {
+      "url_localhost": 123,
+      "url_other": 448,
+      "url_aliyun": 389,
+      "no_url": 7,
+      "url_metadata_ip": 16,
+      "url_example_placeholder": 16,
+      "url_routify": 1
+    },
+    "top_hosts": [
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        348
+      ],
+      [
+        "localhost:8000",
+        28
+      ],
+      [
+        "zzz.invalid",
+        24
+      ],
+      [
+        "127.0.0.1:8000",
+        21
+      ],
+      [
+        "localhost:9999",
+        19
+      ],
+      [
+        "put",
+        17
+      ]
+    ]
+  },
+  "after ; curl -s": {
+    "n": 1000,
+    "tokens": 2297,
+    "url_pct": 99.2,
+    "cats": {
+      "url_other": 350,
+      "url_metadata_ip": 36,
+      "url_localhost": 215,
+      "url_example_placeholder": 336,
+      "url_aliyun": 50,
+      "url_routify": 5,
+      "no_url": 8
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        329
+      ],
+      [
+        "raw.githubusercontent.com",
+        54
+      ],
+      [
+        "127.0.0.1:9",
+        48
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        46
+      ],
+      [
+        "127.0.0.1:8080",
+        38
+      ],
+      [
+        "169.254.169.254",
+        28
+      ]
+    ]
+  },
+  "after ; curl -s -m 10": {
+    "n": 1000,
+    "tokens": 2302,
+    "url_pct": 99.2,
+    "cats": {
+      "url_example_placeholder": 295,
+      "url_localhost": 211,
+      "url_other": 384,
+      "url_aliyun": 74,
+      "no_url": 8,
+      "url_metadata_ip": 28
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        285
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        70
+      ],
+      [
+        "raw.githubusercontent.com",
+        55
+      ],
+      [
+        "127.0.0.1:8080",
+        44
+      ],
+      [
+        "127.0.0.1:8000",
+        37
+      ],
+      [
+        "127.0.0.1:9",
+        34
+      ]
+    ]
+  },
+  "after ; curl -s -m 10 -o": {
+    "n": 1000,
+    "tokens": 2304,
+    "url_pct": 99.6,
+    "cats": {
+      "url_example_placeholder": 227,
+      "url_localhost": 188,
+      "url_aliyun": 81,
+      "url_other": 461,
+      "url_metadata_ip": 38,
+      "no_url": 4,
+      "url_routify": 1
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        213
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        79
+      ],
+      [
+        "raw.githubusercontent.com",
+        70
+      ],
+      [
+        "127.0.0.1:8000",
+        50
+      ],
+      [
+        "169.254.169.254",
+        32
+      ],
+      [
+        "127.0.0.1:8099",
+        16
+      ]
+    ]
+  },
+  "after ; curl -s -m 10 -o /tmp/": {
+    "n": 1000,
+    "tokens": 2307,
+    "url_pct": 99.0,
+    "cats": {
+      "url_localhost": 141,
+      "url_other": 598,
+      "url_aliyun": 74,
+      "url_example_placeholder": 134,
+      "no_url": 10,
+      "url_metadata_ip": 43
+    },
+    "top_hosts": [
+      [
+        "example.com",
+        118
+      ],
+      [
+        "raw.githubusercontent.com",
+        99
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        68
+      ],
+      [
+        "169.254.169.254",
+        40
+      ],
+      [
+        "httpbin.org",
+        33
+      ],
+      [
+        "127.0.0.1:9",
+        27
+      ]
+    ]
+  }
+}
