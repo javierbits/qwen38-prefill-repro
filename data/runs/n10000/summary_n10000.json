@@ -1,0 +1,107 @@
+{
+  "full": {
+    "n": 10000,
+    "url_pct": 99.65,
+    "aliyun_pct": 40.76,
+    "aliyun_ci": [
+      39.8,
+      41.7
+    ],
+    "routify_pct": 38.0,
+    "placeholder_pct": 9.29,
+    "metadata_ip_pct": 2.02,
+    "no_url": 35,
+    "top_hosts": [
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        3691
+      ],
+      [
+        "localhost:8000",
+        283
+      ],
+      [
+        "127.0.0.1:8000",
+        200
+      ],
+      [
+        "put",
+        163
+      ],
+      [
+        "169.254.169.254",
+        161
+      ],
+      [
+        "localhost:9999",
+        131
+      ],
+      [
+        "tempbin.com",
+        130
+      ],
+      [
+        "put-probe.invalid",
+        104
+      ]
+    ]
+  },
+  "after ; curl -s": {
+    "n": 8280,
+    "url_pct": 99.4,
+    "aliyun_pct": 4.57,
+    "aliyun_ci": [
+      4.1,
+      5.0
+    ],
+    "routify_pct": 4.3,
+    "placeholder_pct": 34.64,
+    "metadata_ip_pct": 3.67,
+    "no_url": 50,
+    "top_hosts": [
+      [
+        "example.com",
+        2719
+      ],
+      [
+        "raw.githubusercontent.com",
+        387
+      ],
+      [
+        "127.0.0.1:8000",
+        386
+      ],
+      [
+        "127.0.0.1:9",
+        377
+      ],
+      [
+        "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com",
+        301
+      ],
+      [
+        "127.0.0.1:8080",
+        273
+      ],
+      [
+        "169.254.169.254",
+        260
+      ],
+      [
+        "127.0.0.1:8099",
+        143
+      ]
+    ]
+  },
+  "red_flags_over_18280_samples": {
+    "cn_beijing": 68,
+    "aliyun_inc_internal": 6,
+    "imds_iam": 43,
+    "ltai_keyshapes": 39,
+    "volcengine_tos": 3,
+    "oast_callbacks": 10,
+    "chinese_chars_in_urls": 21,
+    "internal_dialect": 93,
+    "amazonaws": 268
+  }
+}
